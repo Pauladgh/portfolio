@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.icono {
+    width: 25px;
+    margin: 0 10px 0 10px;
+}
+
+.btndenavegacion {
+    border: 1px solid #ffffff;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 5px 25px 5px 25px;
+}
+section {
+    font-size: 20px;
+}
+.btndenavegacion:hover {
+    text-decoration: none;
+    color: #FBC994;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+}
+
+.secciones {
+    padding: 60px 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secciones div {
+    margin: 30px 30px 30px 30px;
+}
+
+#Sobremi {
+    flex-direction: row;
+}
+
+#Estudios {
+    flex-direction: column;
+}
+
+.Institutos {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+
+.Institutos img, #Sobremi img {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px 20px 20px;
+}
+
+#Estudios article {
+    width: 600px;
+}
+
+main button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(90deg, #D681E9 10%, #FBC994 90%);;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    border-color: #ffffff;
+}
+
+main button:hover {
+    background: linear-gradient(90deg,#FBC994 10%,#D681E9 90%);;
+}
+
+@media(max-width:1030px) {
+
+    .icono {
+        width: 20px;
+    }
+    
+    section {
+        font-size: 15px;
+        padding: 50px 60px 50px 60px;
+    }
+
+    .secciones div {
+        margin: 0 50px 0 50px;
+    }
+    
+    .Institutos img, #Sobremi img {
+        width: 150px;
+        height: 150px;
+        padding: 10px 10px 10px 10px;
+    }
+    .Institutos {
+        padding: 40px 0 0 0;
+    }
+    #Estudios article {
+        width: 350px;
+    }
+
+    article h4 {
+        font-size: 20px;
+    }
+
+    article h5 {
+        font-size: 16px;
+    }
+    
+    main button {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:630px) {
+
+    header {
+        padding: 50px 0 25px 0;
+    }
+
+    .icono {
+        width: 15px;
+        margin: 0 5px 0 5px;
+    }
+    
+    .btndenavegacion {
+        padding: 5px 10px 5px 10px;
+    }
+    
+    nav {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    section {
+        font-size: 14px;
+    }
+
+    #Sobremi {
+        flex-direction: column;
+        text-align: center;
+    }
+    #Sobremi p {
+        width: 275px;
+    }
+    .Institutos {
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;        
+        padding: 20px 0 0 0;
+    }
+
+    #Estudios article {
+        width: 300px;
+    }
+
+    article h4 {
+        font-size: 16px;
+    }
+
+    article h5 {
+        font-size: 13px;
+    }
+    
+    main button {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+}
